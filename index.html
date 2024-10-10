@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Die Informatik-Lern-App bietet Übungsaufgaben zu verschiedenen Themen wie IPv4, Elektro Technik, Begriffsbezeichnungen, ISO-OSi-Modell und Datenbanken. Testen Sie Ihr Wissen und verbessern Sie Ihre Fähigkeiten in Informatik mit interaktiven Übungen und Lösungen." />
+  <link rel="shortcut icon" href="#">
+
+  <title>Informatik Lern-App</title>
+
+  <link rel="stylesheet" href="./informatik.css" />
+</head>
+
+<body>
+  <canvas id="canva"></canvas>
+  <div class="modal" id="modal1">
+    <div class="button-div">
+      <button data-id="ipv4" onclick="ChooseTask(this)">
+        IPv4 Aufgaben
+      </button>
+      <button data-id="byteUmrechnung" onclick="ChooseTask(this)">
+        Umrechnung SI-Einheiten zu Binärpräfixe
+      </button>
+      <button data-id="etechnik" onclick="ChooseTask(this)">
+        Elektro Technik Aufgaben
+      </button>
+      <button data-id="begriffe" onclick="ChooseTask(this)">
+        Begriffsbezeichnungen
+      </button>
+      <button data-id="isoosi" onclick="ChooseTask(this)">
+        ISO-OSi-Modell Aufgaben
+      </button>
+      <button data-id="datenbank" onclick="ChooseTask(this)">
+        Datenbank Aufgaben
+      </button>
+      <button data-id="sqlEasy" onclick="ChooseTask(this)">
+        SQL Aufgaben einfach
+      </button>
+      <button data-id="programmiersprachen" onclick="ChooseTask(this)">
+        Aufgaben zu Programmiersprachen
+      </button>
+      <button data-id="software" onclick="ChooseTask(this)">
+        Aufgaben zu Software
+      </button>
+    </div>
+  </div>
+
+  <main>
+    <h1 id="heading">Übungsaufgaben Schule</h1>
+    <div class="button-div">
+      <button id="category" onclick="showTask()">Wähle Rubrik</button>
+      <button id="ipv4" class="hide-btn" onclick="generateRandomIPv4Task()">
+        Generiere IPv4 Aufgabe
+      </button>
+      <button id="byteUmrechnung" class="hide-btn" onclick="generateRandomIPv4Task()">
+        Generiere SI-Einheiten zu Binärpräfixe
+      </button>
+      <button id="etechnik" class="hide-btn" onclick="generateRandomElectricTask()">
+        Generiere Elektro Technik Aufgabe
+      </button>
+      <button id="begriffe" class="hide-btn" onclick="generateRandomExpression()">
+        Generiere Begriffsbezeichnung
+      </button>
+      <button id="isoosi" class="hide-btn" onclick="generateRandomISoOsi()">
+        Generiere ISO-OSi-Modell Aufgabe
+      </button>
+      <button id="datenbank" class="hide-btn" onclick="generateRandomDatenbank()">
+        Generiere Datenbank Aufgabe
+      </button>
+      <button id="sqlEasy" class="hide-btn" onclick="generateRandomSqlEasy()">
+        Generiere SQL Aufgabe
+      </button>
+      <button id="programmiersprachen" class="hide-btn" onclick="generateRandomProgrammiersprache()">
+        Generiere Aufgabe zu Programmiersprachen
+      </button>
+      <button id="software" class="hide-btn" onclick="generateRandomSoftware()">
+        Generiere Software Aufgabe
+      </button>
+    </div>
+    <p id="task"></p>
+    <hr />
+    <p id="result">Lösung:</p>
+    <p id="correct-solution"></p>
+    <hr />
+    <label id="labelWorkingarea" for="workingarea">Arbeitsfeld:</label>
+    <br />
+    <textarea rows="6" id="workingarea"></textarea>
+    <br /><br />
+    <button id="checkSolution" onclick="checkSolution()">Überprüfen</button>
+  </main>
+  <script src="./informatik.js" defer></script>
+</body>
+
+</html>

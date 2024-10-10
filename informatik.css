@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "Arial", sans-serif;
+    margin: 0px;
+    text-align: center;
+    background-color: #333;
+  }
+
+  #canva{
+    position: absolute;
+    left: 0;
+    z-index: 10;
+    background-color: transparent;
+    display: none;
+  }
+
+  .modal{
+    width: 100%;
+    height: 100%;
+    background: #131313c2;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .modal > .button-div{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  main {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  h1 {
+    color: #e0cc1d;
+    margin: 30px;
+  }
+
+  p,
+  label {
+    color: #e0cc1d;
+  }
+
+  hr{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 50%;
+  }
+
+  .button-div {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+  }
+
+  .hide-btn{
+    display: none;
+  }
+
+  button {
+    background-color: #49957c;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  button:hover {
+    background-color: #036666;
+  }
+
+  label {
+    font-size: 20px;
+    margin-top: 10px;
+  }
+
+  textarea {
+    width: 80%;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: darkgray;
+  }
+
+  #task {
+    font-size: 18px;
+    padding: 15px;
+    max-width: 90%;
+  }
+  #task > p{
+    margin: 10px;
+  }
+
+  #result {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #correct-solution {
+    font-size: 18px;
+    display: none;
+    max-width: 90%;
+  }
+  
+  .responsive-table {
+    overflow-x: auto;
+    display: flex;
+  }
+  table{
+    border-collapse: collapse;
+    font-size: 16px;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  td,th {
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+  .wrong{
+    color:red;
+  }
+
+  @media screen and (max-width: 800px) {
+    .button-div {
+      flex-direction: column;
+    }
+    button {
+      width: 80%;
+    }
+  }

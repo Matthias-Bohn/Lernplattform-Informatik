@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tasks>
+    <Task>
+      <question>
+        Was ist der Hauptunterschied zwischen Maschinensprache und Assemblersprachen?
+      </question>
+      <answer>
+        Maschinensprache besteht aus binären Codes, die direkt vom Prozessor verstanden werden, während Assemblersprachen eine leichter verständliche Form von Befehlen verwenden, die noch in Maschinensprache übersetzt werden müssen.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wie unterscheiden sich Hochsprachen von Maschinen- und Assemblersprachen?
+      </question>
+      <answer>
+        Hochsprachen: | Systemunabhängig, Menschenlesbare Syntax, Übersetzung durch Compiler oder Interpreter.\n\nMaschinen-/Assemblersprachen: Systemabhängig, Direkte Ausführung durch den Prozessor, Schwer zu lesen
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Nenne 3 Compiler-Sprachen
+      </question>
+      <answer>
+        C, C++, C#
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Nenne 3 Interpreter-Sprachen
+      </question>
+      <answer>
+        Js, Python, PHP
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erläutere Programmierparadigma:
+      </question>
+      <answer>
+        Ein Programmierparadigma ist das grundlegende Konzept (Grundauffassungen, Methoden und Prinzipien), welches einer Programmiersprache zugrunde liegt.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erkläre in Stichpunkten Imperative Programmiersprachen und nenne eine Programmiersprache:
+      </question>
+      <answer>
+        - Besteht aus einer Folge von Anweisungen.\n
+        - Gibt genau vor wann was vom Rechner erledigt werden soll.\n
+        - Es werden Kontrollstrukturen wie Schleifen oder Verzweigungen verwendet.\n
+        - Beispiele: C, Python.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erkläre in Stichpunkten Deklarative Programmiersprachen und nenne eine Programmiersprache:
+      </question>
+      <answer>
+        - Fokussiert sich auf das "Was" statt auf das "Wie".\n
+        - Beschreibt die gewünschte Funktionalität ohne explizite Anweisungen zum Ablauf.\n
+        - Weniger betroffen von Implementierungsdetails.\n
+        - Beispiel: SQL.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erkläre in Stichpunkten Objektorientierte Programmiersprachen und nenne eine Programmiersprache:
+      </question>
+      <answer>
+        - Daten und Programmcode werden in übersichtlichen Objekten gekapselt.\n
+        - Reduzierter Programmieraufwand\n
+        - Hilft bei Fehlervermeidung.\n
+        - Beispiel: C#.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Vorteile objektorientierter Programmierung?
+      </question>
+      <answer>
+        - Klassen und Objekte können in verschiedenen Teilen einer Anwendung wiederverwendet werden.\n
+        - Übersichtlich\n
+        - Fehler unanfällig
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erkläre den Begriff Syntax:
+      </question>
+      <answer>
+        Grammatik der Programmiersprache
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erkläre den Begriff Schlüsselwörter:
+      </question>
+      <answer>
+        Schlüsselwörter sind Bezeichner, welche von der Programmiersprache für ihre Syntaxausdrücke verwendet werden.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Was macht ein Compiler?
+      </question>
+      <answer>
+        Übersetzt den Quelltext in Maschinensprache
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Was macht ein Interpreter?
+      </question>
+      <answer>
+        übersetzt den Quelltext während der Laufzeit Anweisung für Anweisung
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Welche Aufgabe hat das Werkzeug Linker? 
+      </question>
+      <answer>
+        Der Linker verbindet verschiedene Teile des Quellcodes und erstellt eine ausführbare Datei, indem er alle notwendigen Module und Bibliotheken miteinander verknüpft.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Was ist ein Framework?
+      </question>
+      <answer>
+        Ein Framework fasst Bibliotheken und sonstige Hilfsmittel zur Lösung bestimmter Probleme zusammen.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Nenne 5 Programmierwerkzeuge.
+      </question>
+      <answer>
+        Editor, Compiler, Debugger, Linker, Projektverwaltung
+      </answer>
+    </Task>
+</Tasks>

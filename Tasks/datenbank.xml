@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tasks>
+    <Task>
+      <question>
+        SQL ausgeschrieben
+      </question>
+      <answer>
+        Structured query language
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erläutern Sie kurz, was ein Datenbanksystem (DBS) ist und welche Hauptkomponenten es enthält.
+      </question>
+      <answer>
+        Ein Datenbanksystem (DBS) ist ein technisches Hilfsmittel zur effizienten Organisation, Speicherung, Manipulation, Integration und Verwaltung großer Datensammlungen. Es besteht aus einer Datenbank (DB) und einem Datenbankmanagementsystem (DBMS).
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Welche Funktion hat das Datenbankmanagementsystem (DBMS) in einem DBS?
+      </question>
+      <answer>
+        Das Datenbankmanagementsystem (DBMS) kapselt den Datenbestand und verwaltet die Zugriffe auf die Datenbank (DB).
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Beschreiben Sie die Bedeutung des Begriffs "Datenbasis/Datenbank" im Kontext eines Datenbanksystems.
+      </question>
+      <answer>
+        Die Datenbank (DB) ist der eigentliche Datenbestand, welcher eine strukturierte Sammlung von Daten darstellt.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Nennen Sie zwei Kategorien, nach denen DBMS eingeteilt werden können.
+      </question>
+      <answer>
+        Betriebskonzept und dem unterliegenden Datenmodell.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Welche Zugriffssprache wird häufig verwendet, um auf relationale Datenbanken zuzugreifen?
+      </question>
+      <answer>
+        SQL
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Nennen Sie die drei Hauptphasen bei der Entwicklung einer datenbankgestützten Anwendung.
+      </question>
+      <answer>
+        Analyse, Erstellen der DB-Struktur, und Entwicklung der Anwendung.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Was versteht man unter einem Entity-Relationship-Modell (ERM)?
+      </question>
+      <answer>
+        Ein Entity-Relationship-Modell (ERM) dient dazu, relevante Prozesse und Objekte zu modellieren und deren Beziehungen abzubilden.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Nenne alle 3 Kardinalitäten (ER-Modell)
+      </question>
+      <answer>
+        1:1, 1:n, m:n
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erläutere Datenredundanz
+      </question>
+      <answer>
+        Datenredundanz besteht, wenn dieselbe Information mehrfach in einer Datenbank vorhanden ist.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erläutere Datenkonsistens
+      </question>
+      <answer>
+        In der Datenbank gespeicherte Daten sind korrekt und widerspruchsfrei.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erläutere Änderungsanomalie
+      </question>
+      <answer>
+        Datenänderungen führen zu Inkonsistenzen oder unerwarteten Ergebnissen.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erläutere Einfügeanomalie
+      </question>
+      <answer>
+        Neue Daten können nicht ohne Hinzufügen von nicht relevanten Informationen eingefügt werden.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Erläutere Löschanomalie
+      </question>
+      <answer>
+        Löschen von Daten hat unerwünschte Auswirkungen auf andere Teile der Datenbank.
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Nenne 3 Beispiele für Datenbankmanagementsysteme.
+      </question>
+      <answer>
+        MySQL, PostgreSQL, Oracle DB
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Nenne 5 Datenmodelle
+      </question>
+      <answer>
+        Relationales Datenmodell, Hierarchisches Datenmodell, Netzwerkdatenmodell, Objektorientiertes Datenmodell, Objektrelationales Datenmodell
+      </answer>
+    </Task>
+</Tasks>

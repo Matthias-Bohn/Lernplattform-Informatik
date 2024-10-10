@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tasks>
+    <Task>
+      <question>
+        Wähle alle Spalten aller Einträge aus der Tabelle.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle nur die Spalten Name und Betrag aus der Tabelle.
+      </question>
+      <answer>
+        SELECT Name, Betrag FROM Bestellungen;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle Einträge, sortiert nach Betrag in absteigender Reihenfolge.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen ORDER BY Betrag DESC;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle die obersten 5 Einträge basierend auf dem höchsten Betrag.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen ORDER BY Betrag DESC LIMIT 5;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle einzigartigen ProduktId's aus der Tabelle.
+      </question>
+      <answer>
+        SELECT DISTINCT ProduktId FROM Bestellungen;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle Einträge, bei denen der Betrag größer als 50 ist.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag &gt; 50;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechne die Gesamtsumme aller Beträge und gebe diese als Gesamtsumme aus.
+      </question>
+      <answer>
+        SELECT SUM(Betrag) AS Gesamtsumme FROM Bestellungen;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechne den DurchschnittsBetrag aller Einträge.
+      </question>
+      <answer>
+        SELECT AVG(Betrag) FROM Bestellungen;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Finde den höchsten Betrag.
+      </question>
+      <answer>
+        SELECT MAX(Betrag) FROM Bestellungen;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Gruppiere die Einträge nach ProduktId und gebe die ProduktId und die Anzahl der Bestellungen pro Produkt aus. Gebe die Anzahl als AnzahlBestellungen aus.
+      </question>
+      <answer>
+        SELECT ProduktId, COUNT(*) AS AnzahlBestellungen FROM Bestellungen GROUP BY ProduktId;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle die Spalte Name und gib ihr den Alias Kundenname.
+      </question>
+      <answer>
+        SELECT Name AS Kundenname FROM Bestellungen;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle Einträge aus, deren Betrag zwischen 20 und 100 liegt.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag BETWEEN 20 AND 100;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle Einträge, bei denen der Betrag größer als 50 ist und das Datum vor dem 1. Januar 2024 liegt.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag &gt; 50 AND Datum &lt; '2024-01-01';
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Finde alle Einträge, bei denen der Name mit einem A beginnt.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Name LIKE 'A%';
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle Einträge, bei denen der Betrag nicht gesetzt ist.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag IS NULL;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle Einträge, aber füge die Spalten Name und ProduktId in einer Spalte zusammen (mit einem Trennzeichen ' - ').
+      </question>
+      <answer>
+        SELECT CONCAT(Name, ' - ', ProduktId) FROM Bestellungen;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle Einträge aus der Tabelle, sortiert nach dem Datum in aufsteigender Reihenfolge.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen ORDER BY Datum ASC;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Gruppiere die Einträge nach dem Monat des Datums und zähle die Anzahl der Bestellungen pro Monat (Anzahl Bestellungen). Gib zusätzlich den Monat (Monat) aus.
+      </question>
+      <answer>
+        SELECT COUNT(*) AS Anzahl Bestellungen, MONTH(Datum) AS Monat FROM Bestellungen GROUP BY MONTH(Datum);
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle Einträge aus dem Jahr 2023.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE YEAR(Datum) = 2023;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle Einträge aus, deren Datum zwischen dem 1. Januar 2022 und dem 31. Dezember 2023 liegt.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Datum BETWEEN '2022-01-01' AND '2023-12-31';
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Wähle alle Einträge aus, bei denen der Betrag zwischen 20 und 100 liegt.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag BETWEEN 20 AND 100;
+      </answer>
+    </Task>
+</Tasks>

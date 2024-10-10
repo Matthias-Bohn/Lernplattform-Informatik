@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tasks>
+    <Task>
+      <question>
+        Berechnen Sie die Leistung (P) (in Watt), wenn der Strom (I) 2 Ampere beträgt und die Spannung (U) 12 Volt beträgt.
+      </question>
+      <answer>
+        Leistung (P) = Spannung (U) x Strom (I) =&gt; Leistung (P) = 12 V * 2 A = 24 W
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie den Strom (I) in Ampere, wenn die Spannung (U) 15 Volt beträgt und der Widerstand (R) 5 Ohm beträgt.
+      </question>
+      <answer>
+        Strom (I) = Spannung (U) / Widerstand (R) =&gt; Strom (I) = 15 V / 5 Ohm = 3 A
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie die Spannung (U) (in Volt), wenn die Leistung (P) 36 Watt beträgt und der Strom (I) 4 Ampere beträgt.
+      </question>
+      <answer>
+        Spannung (U) = Leistung (P) / Strom (I) =&gt; Spannung (U) = 36 W / 4 A = 9 V
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie den Widerstand (R), wenn die Spannung (U) 10 Volt und der Strom (I) 2 Ampere beträgt.
+      </question>
+      <answer>
+        Widerstand (R) = Spannung (U) / Strom (I) =&gt; Widerstand (R) = 10 V / 2 A = 5 Ohm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie den Widerstand (R) (in Kiloohm), wenn die Spannung (U) 25 Millivolt beträgt und der Strom (I) 15 Mikroampere beträgt.
+      </question>
+      <answer>
+        Widerstand (R) = Spannung (U) / Strom (I) =&gt; Widerstand (R) = 25 mV / 15 µA = 1.67 kOhm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Ein elektrischer Leiter hat einen Leitwert (G) von 0,02 S. Berechnen Sie den Widerstand (R) dieses Leiters.
+      </question>
+      <answer>
+        Widerstand (R) = 1 / Leitwert (G) =&gt; Widerstand (R) = 1 / 0,02 S = 50 Ohm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Ein elektrischer Leiter hat einen Leitwert (G) von 0,03 S. Berechnen Sie den Widerstand (R) dieses Leiters.
+      </question>
+      <answer>
+        Widerstand (R) = 1 / Leitwert (G) =&gt; Widerstand (R) = 1 / 0,03 S ≈ 33,33 Ohm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Ein Widerstand (R) beträgt 75 Ohm. Berechnen Sie den Leitwert (G) dieses Widerstands.
+      </question>
+      <answer>
+        Leitwert (G) = 1 / Widerstand (R) =&gt; Leitwert (G) = 1 / 75 Ohm ≈ 0,0133 S
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Ein elektrisches Bauteil hat einen Leitwert (G) von 0,05 S. Wie hoch ist der Widerstand (R) dieses Bauteils?
+      </question>
+      <answer>
+        Widerstand (R) = 1 / Leitwert (G) =&gt; Widerstand (R) = 1 / 0,05 S = 20 Ohm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie den Vorwiderstand (in Ohm) für eine rote LED (Durchlassspannung von 2 Volt) mit einer Betriebsspannung von 3,5 Volt und einem gewünschten Strom von 20 Milliampere.
+      </question>
+      <answer>
+        Vorwiderstand = (Betriebsspannung - LED-Spannung) / LED-Strom =&gt; Vorwiderstand = (3,5 V - 2 V) / 0,02 A = 75 Ohm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie den Gesamtwiderstand in einer Reihenschaltung von drei Widerständen mit den Werten 10 Ohm, 20 Ohm und 30 Ohm.
+      </question>
+      <answer>
+        Gesamtwiderstand = Widerstand1 + Widerstand2 + Widerstand3 =&gt; Gesamtwiderstand = 10 Ohm + 20 Ohm + 30 Ohm = 60 Ohm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie den Gesamtwiderstand in einer Parallelschaltung von drei Widerständen mit den Werten 10 Ohm, 20 Ohm und 30 Ohm.
+      </question>
+      <answer>
+        Gesamtwiderstand = 1 / (1/Widerstand1 + 1/Widerstand2 + 1/Widerstand3) =&gt; Gesamtwiderstand = 1 / (1/10 Ohm + 1/20 Ohm + 1/30 Ohm) = 5,45 Ohm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie den Gesamtwiderstand in Ohm in einer Parallelschaltung von drei Widerständen mit den Werten 5 Kilohm, 15 Ohm und 25 Milliohm.
+      </question>
+      <answer>
+        Gesamtwiderstand = 1 / (1/Widerstand1 + 1/Widerstand2 + 1/Widerstand3) =&gt; Gesamtwiderstand = 1 / (1/(5 * 1000) + 1/15 + 1/(25 / 1000))\nGesamtwiderstand = 0.025 Ohm
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Ein Gerät hat einen Widerstand (R) von 30 Ohm. Berechnen Sie die Leistung (P), wenn die Spannung (U) 15 Volt beträgt.
+      </question>
+      <answer>
+        Leistung (P) = Spannung (U)^2 / Widerstand (R) =&gt; Leistung (P) = 15^2 / 30 Ohm = 7,5 Watt
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie die Leistung (P), wenn der Strom (I) 2 Ampere beträgt und die Spannung (U) 12 Volt beträgt.
+      </question>
+      <answer>
+        Leistung (P) = Spannung (U) * Strom (I) =&gt; Leistung (P) = 12 V * 2 A = 24 Watt
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Ein elektronisches Bauteil hat einen Widerstand (R) von 50 Ohm. Wie hoch ist die Leistung (P), wenn der Strom (I) 0,5 Ampere beträgt?
+      </question>
+      <answer>
+        Leistung (P) = Strom (I)^2 * Widerstand (R) =&gt; Leistung (P) = (0,5 A)^2 * 50 Ohm = 12,5 Watt
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Ein elektronisches Bauteil hat einen Leitwert (G) von 0,03 S. Wie hoch ist die Leistung (P), wenn die Spannung (U) 8 Volt beträgt?
+      </question>
+      <answer>
+        Leistung (P) = Spannung^2 * Leitwert (G) =&gt; P = 8^2 * 0,03 S = 1,92 Watt
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Berechnen Sie die Leistung (P), wenn die Spannung (U) 12 Volt beträgt und der Leitwert (G) 0,02 S ist.
+      </question>
+      <answer>
+        Leistung (P) = Spannung^2 * Leitwert (G) =&gt; P = 12^2 * 0,02 S = 2,88 Watt
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Ein Gerät hat einen Leitwert (G) von 0,015 S. Wie hoch ist die Leistung (P), wenn die Spannung (U) 6 Volt beträgt?
+      </question>
+      <answer>
+        Leistung (P) = Spannung^2 * Leitwert (G) =&gt; P = 6^2 * 0,015 S = 0,54 Watt
+      </answer>
+    </Task>
+</Tasks>

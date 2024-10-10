@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tasks>
+    <Task>
+      <question>
+        Definition von Software 
+      </question>
+      <answer>
+        Software umfasst alle Programme, vorgeschriebenen Abläufe, Dokumentation und Daten, die zum Betrieb eines Rechnersystems erforderlich sind. 
+      </answer>
+    </Task>
+    <Task>
+        <question>
+            In welche Bereiche lässt sich Software Aufgabenbezogen Unterteilen?
+        </question>
+        <answer>
+          - Systemsoftware (Betriebssystem, Treiber)\n
+          - Unterstützungssoftware (z.B. Editor)\n
+          - Anwendersoftware (z.B. Unterhaltungssoftware / Buchhaltungsprogramm)
+        </answer>
+      </Task>
+    <Task>
+        <question>
+          Wie lässt sich Software nach Grad der Individualisierung Einteilen?
+        </question>
+        <answer>
+            - Standardsoftware (frei am Markt erhältliche Software für spezifische Aufgabenstellung)\n
+            - Individualsoftware (speziell für Kunden entwickelt)
+        </answer>
+      </Task>
+    <Task>
+        <question>
+          In welche Arten lässt sich Softwareentwicklung nach Aufwand der Anpassung unterteilen?
+        </question>
+        <answer>
+            - Customizing | Anpassung von Softwarelösungen an Kundenanforderungen, ohne Strukturänderungen.\n
+            - Erweiterungsprogrammierung | Hinzufügen neuer Funktionen ohne Kernveränderungen.\n
+            - Neuentwicklung | Erstellung einer maßgeschneiderten Lösung.\n
+            - Datenmigration | Datenübertragung zwischen Systemen mit Konvertierung und Validierung.
+        </answer>
+      </Task>
+    <Task>
+        <question>
+          Definition Softwareentwicklung
+        </question>
+        <answer>
+          Neuentwicklung oder die Verbesserung und Anpassung von Softwaresystemen und die damit verbundenen Prozesse.
+        </answer>
+      </Task>
+</Tasks>
