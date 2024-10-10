@@ -1,131 +1,318 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tasks>
-    <Task>
-      <question>
-        SQL ausgeschrieben
-      </question>
-      <answer>
-        Structured query language
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Erläutern Sie kurz, was ein Datenbanksystem (DBS) ist und welche Hauptkomponenten es enthält.
-      </question>
-      <answer>
-        Ein Datenbanksystem (DBS) ist ein technisches Hilfsmittel zur effizienten Organisation, Speicherung, Manipulation, Integration und Verwaltung großer Datensammlungen. Es besteht aus einer Datenbank (DB) und einem Datenbankmanagementsystem (DBMS).
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Welche Funktion hat das Datenbankmanagementsystem (DBMS) in einem DBS?
-      </question>
-      <answer>
-        Das Datenbankmanagementsystem (DBMS) kapselt den Datenbestand und verwaltet die Zugriffe auf die Datenbank (DB).
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Beschreiben Sie die Bedeutung des Begriffs "Datenbasis/Datenbank" im Kontext eines Datenbanksystems.
-      </question>
-      <answer>
-        Die Datenbank (DB) ist der eigentliche Datenbestand, welcher eine strukturierte Sammlung von Daten darstellt.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Nennen Sie zwei Kategorien, nach denen DBMS eingeteilt werden können.
-      </question>
-      <answer>
-        Betriebskonzept und dem unterliegenden Datenmodell.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Welche Zugriffssprache wird häufig verwendet, um auf relationale Datenbanken zuzugreifen?
-      </question>
-      <answer>
-        SQL
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Nennen Sie die drei Hauptphasen bei der Entwicklung einer datenbankgestützten Anwendung.
-      </question>
-      <answer>
-        Analyse, Erstellen der DB-Struktur, und Entwicklung der Anwendung.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Was versteht man unter einem Entity-Relationship-Modell (ERM)?
-      </question>
-      <answer>
-        Ein Entity-Relationship-Modell (ERM) dient dazu, relevante Prozesse und Objekte zu modellieren und deren Beziehungen abzubilden.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Nenne alle 3 Kardinalitäten (ER-Modell)
-      </question>
-      <answer>
-        1:1, 1:n, m:n
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Erläutere Datenredundanz
-      </question>
-      <answer>
-        Datenredundanz besteht, wenn dieselbe Information mehrfach in einer Datenbank vorhanden ist.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Erläutere Datenkonsistens
-      </question>
-      <answer>
-        In der Datenbank gespeicherte Daten sind korrekt und widerspruchsfrei.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Erläutere Änderungsanomalie
-      </question>
-      <answer>
-        Datenänderungen führen zu Inkonsistenzen oder unerwarteten Ergebnissen.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Erläutere Einfügeanomalie
-      </question>
-      <answer>
-        Neue Daten können nicht ohne Hinzufügen von nicht relevanten Informationen eingefügt werden.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Erläutere Löschanomalie
-      </question>
-      <answer>
-        Löschen von Daten hat unerwünschte Auswirkungen auf andere Teile der Datenbank.
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Nenne 3 Beispiele für Datenbankmanagementsysteme.
-      </question>
-      <answer>
-        MySQL, PostgreSQL, Oracle DB
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Nenne 5 Datenmodelle
-      </question>
-      <answer>
-        Relationales Datenmodell, Hierarchisches Datenmodell, Netzwerkdatenmodell, Objektorientiertes Datenmodell, Objektrelationales Datenmodell
-      </answer>
-    </Task>
+  <Task>
+    <question>
+      SQL ausgeschrieben
+    </question>
+    <answer>
+      Structured query language
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Erläutern Sie kurz, was ein Datenbanksystem (DBS) ist und welche Hauptkomponenten es enthält.
+    </question>
+    <answer>
+      Ein Datenbanksystem (DBS) ist ein technisches Hilfsmittel zur effizienten Organisation,
+      Speicherung, Manipulation, Integration und Verwaltung großer Datensammlungen. Es besteht aus
+      einer Datenbank (DB) und einem Datenbankmanagementsystem (DBMS).
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Welche Funktion hat das Datenbankmanagementsystem (DBMS) in einem DBS?
+    </question>
+    <answer>
+      Das Datenbankmanagementsystem (DBMS) kapselt den Datenbestand und verwaltet die Zugriffe auf
+      die Datenbank (DB).
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Beschreiben Sie die Bedeutung des Begriffs "Datenbasis/Datenbank" im Kontext eines
+      Datenbanksystems.
+    </question>
+    <answer>
+      Eine Datenbank (DB) ist eine organisierte Sammlung von Daten, die so strukturiert ist, dass sie
+      leicht zugänglich, verwaltet und aktualisiert werden können.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Nennen Sie zwei Kategorien, nach denen DBMS eingeteilt werden können.
+    </question>
+    <answer>
+      Betriebskonzept und dem unterliegenden Datenmodell.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Welche Zugriffssprache wird häufig verwendet, um auf relationale Datenbanken zuzugreifen?
+    </question>
+    <answer>
+      SQL
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Nennen Sie die drei Hauptphasen bei der Entwicklung einer datenbankgestützten Anwendung.
+    </question>
+    <answer>
+      Analyse, Erstellen der DB-Struktur, und Entwicklung der Anwendung.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was versteht man unter einem Entity-Relationship-Modell (ERM)?
+    </question>
+    <answer>
+      Ein Entity-Relationship-Modell (ERM) dient dazu, relevante Prozesse und Objekte zu modellieren
+      und deren Beziehungen abzubilden.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Nenne alle 3 Kardinalitäten (ER-Modell)
+    </question>
+    <answer>
+      1:1, 1:n, m:n
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Erläutere Datenkonsistens
+    </question>
+    <answer>
+      In der Datenbank gespeicherte Daten sind korrekt und widerspruchsfrei.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Erläutere Änderungsanomalie
+    </question>
+    <answer>
+      Datenänderungen führen zu Inkonsistenzen oder unerwarteten Ergebnissen.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Erläutere Einfügeanomalie
+    </question>
+    <answer>
+      Neue Daten können nicht ohne Hinzufügen von nicht relevanten Informationen eingefügt werden.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Erläutere Löschanomalie
+    </question>
+    <answer>
+      Löschen von Daten hat unerwünschte Auswirkungen auf andere Teile der Datenbank.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Nenne 3 Beispiele für Datenbankmanagementsysteme.
+    </question>
+    <answer>
+      MySQL, PostgreSQL, Oracle DB
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Nenne 5 Datenmodelle
+    </question>
+    <answer>
+      Relationales Datenmodell, Hierarchisches Datenmodell, Netzwerkdatenmodell, Objektorientiertes
+      Datenmodell, Objektrelationales Datenmodell
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist der Unterschied zwischen Primärschlüssel und Fremdschlüssel in einer relationalen
+      Datenbank?
+    </question>
+    <answer>
+      Ein Primärschlüssel ist ein eindeutiges Attribut oder eine Attributkombination zur
+      Identifizierung einer Datensatzreihe. Ein Fremdschlüssel verweist auf einen Primärschlüssel in
+      einer anderen Tabelle, um Beziehungen zwischen den Tabellen herzustellen.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was bedeutet Normalisierung in einer relationalen Datenbank?
+    </question>
+    <answer>
+      Normalisierung ist der Prozess der Organisation von Datenbanken, um Redundanzen zu minimieren
+      und Datenintegrität zu gewährleisten, indem Daten in mehrere miteinander verknüpfte Tabellen
+      aufgeteilt werden.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist eine 1. Normalform (1NF) in der Datenbanktheorie?
+    </question>
+    <answer>
+      Eine Tabelle ist in der 1. Normalform (1NF), wenn alle Attribute atomar sind, das heißt, sie
+      enthalten nur unteilbare Werte, und alle Zeilen eindeutig sind.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Erkläre die 2. Normalform (2NF).
+    </question>
+    <answer>
+      Eine Tabelle ist in der 2. Normalform (2NF), wenn sie in der 1NF ist und jedes
+      Nichtschlüsselattribut vollständig vom Primärschlüssel abhängt.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist die 3. Normalform (3NF)?
+    </question>
+    <answer>
+      Eine Tabelle ist in der 3. Normalform (3NF), wenn sie in der 2NF ist und kein
+      Nichtschlüsselattribut transitiv vom Primärschlüssel abhängt.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist ein Index in einer Datenbank und wofür wird er verwendet?
+    </question>
+    <answer>
+      Ein Index ist eine Datenstruktur, die verwendet wird, um den Zugriff auf Daten in einer
+      Datenbank zu beschleunigen, indem die Suchvorgänge effizienter gestaltet werden.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist eine Transaktion in einem Datenbanksystem?
+    </question>
+    <answer>
+      Eine Transaktion ist eine Folge von Datenbankoperationen, die als eine logische Einheit
+      ausgeführt werden, wobei entweder alle Operationen erfolgreich abgeschlossen werden (commit)
+      oder bei einem Fehler alle zurückgesetzt werden (rollback).
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was versteht man unter den ACID-Eigenschaften in einer Datenbank?
+    </question>
+    <answer>
+      ACID steht für Atomicity, Consistency, Isolation und Durability. Diese Eigenschaften
+      garantieren die Zuverlässigkeit von Transaktionen in einer Datenbank.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist eine View in einer Datenbank?
+    </question>
+    <answer>
+      Eine View ist eine virtuelle Tabelle, die das Ergebnis einer gespeicherten SQL-Abfrage
+      darstellt und verwendet wird, um bestimmte Daten aus einer oder mehreren Tabellen
+      darzustellen.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was versteht man unter einem Trigger in einer Datenbank?
+    </question>
+    <answer>
+      Ein Trigger ist eine gespeicherte Prozedur, die automatisch ausgeführt wird, wenn eine
+      bestimmte Datenbankoperation (wie INSERT, UPDATE oder DELETE) auf einer Tabelle ausgeführt
+      wird.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist eine Stored Procedure?
+    </question>
+    <answer>
+      Eine Stored Procedure ist eine vordefinierte Sammlung von SQL-Befehlen, die auf dem
+      Datenbankserver gespeichert und bei Bedarf ausgeführt werden können.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Nenne zwei Vorteile der Nutzung einer Datenbank gegenüber einer einfachen Dateispeicherung.
+    </question>
+    <answer>
+      1. Datenintegrität: Datenbanken gewährleisten Konsistenz und Integrität der Daten.
+      2. Datenwiederverwendbarkeit: Daten können von mehreren Anwendungen gleichzeitig genutzt
+      werden.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist eine relationale Datenbank?
+    </question>
+    <answer>
+      Eine relationale Datenbank organisiert Daten in Tabellen, wobei die Beziehungen zwischen den
+      Tabellen auf Grundlage von Schlüsseln definiert werden.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist der Unterschied zwischen einer Datei und einer Datenbank?
+    </question>
+    <answer>
+      Eine Datei speichert Daten unstrukturiert, während eine Datenbank Daten in strukturierter Form
+      speichert und Tools bietet, um effizient auf sie zuzugreifen, sie zu manipulieren und zu
+      verwalten.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist ein Datenmodell in Bezug auf Datenbanken?
+    </question>
+    <answer>
+      Ein Datenmodell beschreibt, wie Daten in einer Datenbank strukturiert, gespeichert und
+      abgerufen werden, und definiert die Beziehungen zwischen den Daten.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was versteht man unter einer Hierarchischen Datenbank?
+    </question>
+    <answer>
+      Eine hierarchische Datenbank organisiert Daten in einer baumartigen Struktur, bei der jedes
+      Datenelement unter einem einzigen "übergeordneten" Element angeordnet ist.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist eine Netzwerkdatenbank?
+    </question>
+    <answer>
+      Eine Netzwerkdatenbank speichert Daten in einer flexiblen Struktur, bei der Datensätze durch
+      mehrere Verknüpfungen miteinander verbunden werden können, ähnlich wie ein Netzwerk.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Nenne einen Nachteil einer datenbankgestützten Lösung.
+    </question>
+    <answer>
+      Datenbanklösungen erfordern oft komplexe Setups und Wartung, was zu höheren Kosten und einem
+      höheren Bedarf an Fachwissen führt.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist Redundanz in einer Datenbank und warum sollte sie vermieden werden?
+    </question>
+    <answer>
+      Redundanz bedeutet, dass dieselben Daten mehrfach gespeichert werden. Sie sollte vermieden
+      werden, um Speicherplatz zu sparen und Inkonsistenzen zu verhindern.
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Was ist Datenintegrität?
+    </question>
+    <answer>
+      Datenintegrität bezeichnet die Genauigkeit und Konsistenz der in einer Datenbank gespeicherten
+      Daten über deren gesamten Lebenszyklus hinweg.
+    </answer>
+  </Task>
 </Tasks>
