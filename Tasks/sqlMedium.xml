@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tasks>
+    <Task>
+      <question>
+        Zeige alle Bestellungen, deren Betrag zwischen 100 und 500 liegt und die nach dem 1. Januar 2023 getätigt wurden.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag BETWEEN 100 AND 500 AND Datum > '2023-01-01';
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige die Anzahl der Bestellungen pro Kunde, sortiert nach der Anzahl absteigend.
+      </question>
+      <answer>
+        SELECT Name, COUNT(*) AS AnzahlBestellungen FROM Bestellungen GROUP BY Name ORDER BY AnzahlBestellungen DESC;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Bestellungen, bei denen der Betrag größer als der Durchschnittsbetrag aller Bestellungen ist.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag > (SELECT AVG(Betrag) FROM Bestellungen);
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige für jedes Produkt die Gesamtsumme der Beträge und die Anzahl der Bestellungen.
+      </question>
+      <answer>
+        SELECT ProduktId, SUM(Betrag) AS Gesamtsumme, COUNT(*) AS AnzahlBestellungen FROM Bestellungen GROUP BY ProduktId;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Bestellungen, bei denen der Name mit "B" beginnt und der Betrag mindestens 200 beträgt.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Name LIKE 'B%' AND Betrag >= 200;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige die fünf ältesten Bestellungen mit einem Betrag über 150.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag > 150 ORDER BY Datum ASC LIMIT 5;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige für jeden Monat die durchschnittliche Bestellsumme.
+      </question>
+      <answer>
+        SELECT MONTH(Datum) AS Monat, AVG(Betrag) AS Durchschnitt FROM Bestellungen GROUP BY MONTH(Datum);
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Bestellungen, bei denen der Betrag nicht gesetzt ist und das Datum im Jahr 2024 liegt.
+      </question>
+      <answer>
+        SELECT * FROM Bestellungen WHERE Betrag IS NULL AND YEAR(Datum) = 2024;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige die Namen der Kunden, die mehr als drei Bestellungen getätigt haben.
+      </question>
+      <answer>
+        SELECT Name FROM Bestellungen GROUP BY Name HAVING COUNT(*) > 3;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige für jedes Produkt die höchste und niedrigste Bestellsumme.
+      </question>
+      <answer>
+        SELECT ProduktId, MAX(Betrag) AS MaxBetrag, MIN(Betrag) AS MinBetrag FROM Bestellungen GROUP BY ProduktId;
+      </answer>
+    </Task>
+</Tasks>

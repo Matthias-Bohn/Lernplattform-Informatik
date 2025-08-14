@@ -97,6 +97,16 @@ const tableEasy = `<div class="responsive-table">
 function generateRandomSqlEasy() {
   writeTask(RandomSqlEasyCount, tableEasy);
 }
+let RandomSqlMediumCount = [];
+const tableMedium = `<div class=\"responsive-table\">\n                          <table>\n                            <tr>\n                              <td colspan=\"5\">Bestellungen</td>\n                            </tr>\n                            <tr>\n                              <th>Id</th>\n                              <th>Name</th>\n                              <th>ProduktId</th>\n                              <th>Datum</th>\n                              <th>Betrag</th>\n                            </tr>\n                            <tr>\n                              <td>1</td>\n                              <td>Max Mustermann</td>\n                              <td>001</td>\n                              <td>2002.08.23</td>\n                              <td>150</td>\n                            </tr>\n                          </table>\n                        </div>`;
+function generateRandomSqlMedium() {
+  writeTask(RandomSqlMediumCount, tableMedium);
+}
+let RandomSqlHardCount = [];
+const tableHard = `<div class=\"responsive-table\">\n                          <table>\n                            <tr>\n                              <td colspan=\"5\">Bestellungen</td>\n                            </tr>\n                            <tr>\n                              <th>BestellId</th>\n                              <th>KundenId</th>\n                              <th>ProduktId</th>\n                              <th>Betrag</th>\n                            </tr>\n                            <tr>\n                              <td>1</td>\n                              <td>101</td>\n                              <td>001</td>\n                              <td>150</td>\n                            </tr>\n                          </table>\n                          <br>\n                          <table>\n                            <tr>\n                              <td colspan=\"2\">Kunden</td>\n                            </tr>\n                            <tr>\n                              <th>KundenId</th>\n                              <th>Name</th>\n                            </tr>\n                            <tr>\n                              <td>101</td>\n                              <td>Max Mustermann</td>\n                            </tr>\n                          </table>\n                        </div>`;
+function generateRandomSqlHard() {
+  writeTask(RandomSqlHardCount, tableHard);
+}
 //middle Zeige den durchschnittlichen Betrag pro Produkt, aber nur für Produkte, von denen mehr als 3 Einträge existieren.
 //SELECT ProduktId, AVG(Betrag) AS DurchschnittsBetrag FROM Bestellungen GROUP BY ProduktId HAVING COUNT(ProduktId) > 3;
 //Wähle alle Namen von Einträgen, deren Betrag höher als der DurchschnittsBetrag ist.
@@ -140,6 +150,12 @@ function checkSolution() {
     if (workingAreaText == "SELECT Matrix") {
       createMatrixAnimation();
     }
+    solutionText = compareStringsAndHighlight(solution.innerText, workingAreaText);
+  }
+  if (DATA_ID == "sqlMedium") {
+    solutionText = compareStringsAndHighlight(solution.innerText, workingAreaText);
+  }
+  if (DATA_ID == "sqlHard") {
     solutionText = compareStringsAndHighlight(solution.innerText, workingAreaText);
   }
   if (DATA_ID == "programmiersprachen" && workingAreaText == "") {

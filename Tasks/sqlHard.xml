@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tasks>
+    <Task>
+      <question>
+        Zeige alle Bestellungen mit dem Namen des Kunden. Die Kundendaten stehen in der Tabelle Kunden (KundenId, Name) und die Bestellungen in Bestellungen (BestellId, KundenId, ProduktId, Betrag).
+      </question>
+      <answer>
+        SELECT Bestellungen.*, Kunden.Name FROM Bestellungen INNER JOIN Kunden ON Bestellungen.KundenId = Kunden.KundenId;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Kunden, die mindestens eine Bestellung getätigt haben. Gib nur den Namen des Kunden aus.
+      </question>
+      <answer>
+        SELECT DISTINCT Kunden.Name FROM Kunden INNER JOIN Bestellungen ON Kunden.KundenId = Bestellungen.KundenId;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige für jeden Kunden die Anzahl der Bestellungen und die Gesamtsumme der Beträge.
+      </question>
+      <answer>
+        SELECT Kunden.Name, COUNT(Bestellungen.BestellId) AS AnzahlBestellungen, SUM(Bestellungen.Betrag) AS Gesamtsumme FROM Kunden INNER JOIN Bestellungen ON Kunden.KundenId = Bestellungen.KundenId GROUP BY Kunden.Name;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Bestellungen, bei denen der Betrag größer als 100 ist und der Kunde mit "A" beginnt.
+      </question>
+      <answer>
+        SELECT Bestellungen.*, Kunden.Name FROM Bestellungen INNER JOIN Kunden ON Bestellungen.KundenId = Kunden.KundenId WHERE Bestellungen.Betrag > 100 AND Kunden.Name LIKE 'A%';
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Kunden, die keine Bestellung getätigt haben.
+      </question>
+      <answer>
+        SELECT Kunden.Name FROM Kunden LEFT JOIN Bestellungen ON Kunden.KundenId = Bestellungen.KundenId WHERE Bestellungen.BestellId IS NULL;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige für jedes Produkt die Anzahl der Bestellungen und den Namen des Kunden, der am meisten bestellt hat.
+      </question>
+      <answer>
+        SELECT ProduktId, Kunden.Name, COUNT(*) AS AnzahlBestellungen FROM Bestellungen INNER JOIN Kunden ON Bestellungen.KundenId = Kunden.KundenId GROUP BY ProduktId, Kunden.Name HAVING COUNT(*) = (SELECT MAX(BestellungenCount) FROM (SELECT COUNT(*) AS BestellungenCount FROM Bestellungen WHERE ProduktId = Bestellungen.ProduktId GROUP BY KundenId) AS Sub);
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Bestellungen mit dem Namen des Kunden und dem Betrag, sortiert nach Betrag absteigend.
+      </question>
+      <answer>
+        SELECT Bestellungen.BestellId, Kunden.Name, Bestellungen.Betrag FROM Bestellungen INNER JOIN Kunden ON Bestellungen.KundenId = Kunden.KundenId ORDER BY Bestellungen.Betrag DESC;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Kunden, die mehr als drei Bestellungen getätigt haben.
+      </question>
+      <answer>
+        SELECT Kunden.Name FROM Kunden INNER JOIN Bestellungen ON Kunden.KundenId = Bestellungen.KundenId GROUP BY Kunden.Name HAVING COUNT(Bestellungen.BestellId) > 3;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige für jeden Kunden die durchschnittliche Bestellsumme.
+      </question>
+      <answer>
+        SELECT Kunden.Name, AVG(Bestellungen.Betrag) AS Durchschnitt FROM Kunden INNER JOIN Bestellungen ON Kunden.KundenId = Bestellungen.KundenId GROUP BY Kunden.Name;
+      </answer>
+    </Task>
+    <Task>
+      <question>
+        Zeige alle Bestellungen, bei denen der Kunde "Max Mustermann" heißt und der Betrag über dem Durchschnitt aller Bestellungen liegt.
+      </question>
+      <answer>
+        SELECT Bestellungen.*, Kunden.Name FROM Bestellungen INNER JOIN Kunden ON Bestellungen.KundenId = Kunden.KundenId WHERE Kunden.Name = 'Max Mustermann' AND Bestellungen.Betrag > (SELECT AVG(Betrag) FROM Bestellungen);
+      </answer>
+    </Task>
+</Tasks>
