@@ -1,283 +1,300 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tasks>
-    <Task>
-      <question>
-        Sorgt für den Transport und das Weiterleiten von Datenpaketen per Funk oder ins leitungsgebundene LAN
-      </question>
-      <answer>
-        Accesspoint
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Speichergerät mit Netzwerkinterface
-      </question>
-      <answer>
-        NAS Network-Attached-Storage
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Ein spezielles Netzwerk, das den Zugriff auf Speichergeräte in Rechenzentren ermöglicht.
-      </question>
-      <answer>
-        SAN Storage-Area-Network
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        4 Byte großes Steuerungsfeld, das die Nutzung mehrerer virtueller LANs über eine physikalische Verbindung erlaubt.
-      </question>
-      <answer>
-        VLAN-Tag
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Bedarfsgerechte und softwarebasierte Planung und Steuerung von Unternehmensressourcen.
-      </question>
-      <answer>
-        ERP Enterprise-Recource-Planning
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Großflächiges Netzwerk (oder Anbieter eines solchen), das (der) den Kunden Leitungen und/oder Übertragungsdienste zur Verfügung stellt.
-      </question>
-      <answer>
-        Carrier
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Eine Softwarelösung zur Verwaltung und Pflege von Kundenbeziehungen eines Unternehmens
-      </question>
-      <answer>
-        CRM Customer-Relationship-Management
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Eine Verbindungsleitung zwischen Switches, die es ermöglicht, Traffic von mehreren VLANs über eine einzige physische Verbindung zu transportieren.
-      </question>
-      <answer>
-        Trunk
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Bezeichnet das Hosting eigener Server in einem externen Rechenzentrum, das sich außerhalb des eigenen LAN befindet.
-      </question>
-      <answer>
-        Colocation
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Gewährleistung, dass Daten in einem System korrekt und widerspruchsfrei sind
-      </question>
-      <answer>
-        Datenkonsistenz
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Mitarbeiter bringen ihre eigenen Geräte mit zum Arbeitsplatz. Diese werden in das LAN integriert.
-      </question>
-      <answer>
-        BYOD Bring-Your-Own-Device
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Bezeichnet die „Beziehung“ zwischen Geräten, die gleichzeitig als Client und Server auftreten.
-      </question>
-      <answer>
-        P2P Peer-to-Peer
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Ein kleiner, leistungsschwacher Rechner, der häufig ohne Festplatte auskommt und speziell dafür entwickelt wurde, auf Anwendungen und Dienste zuzugreifen, die auf einem zentralen Server gehostet werden.
-      </question>
-      <answer>
-        Thin-Client
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Server, der den Zugriff auf Anwendungen von verschiedenen Endgeräten ermöglicht
-      </question>
-      <answer>
-        Terminal-Server
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Gerät, das Datenpakete in einem Netzwerk weiterleitet, basierend auf MAC-Adressen
-      </question>
-      <answer>
-        Switch
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Software und Systeme, die auf physischen Geräten innerhalb eines Unternehmens installiert und verwaltet werden.
-      </question>
-      <answer>
-        On-Premises
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Ein leistungsstarker Computer, der eigenständig umfangreiche Verarbeitungsaufgaben übernimmt und umfassende lokale Anwendungen und Daten speichert.
-      </question>
-      <answer>
-        Fat-Client
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Software und Systeme, die auf externen Servern betrieben und von einem Drittanbieter verwaltet werden, typischerweise in der Cloud.
-      </question>
-      <answer>
-        Off-Premises
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Logisches Netzwerk, das unabhängig von der physischen Struktur konfiguriert wird
-      </question>
-      <answer>
-        VLAN Virtual-Local-Area-Network
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Sicherungskopie von Daten, um im Falle eines Datenverlusts wiederherstellen zu können
-      </question>
-      <answer>
-        Backup
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Architektur, bei der Clients Dienste von einem Server anfordern
-      </question>
-      <answer>
-        Client-Server
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Zentrale Einrichtung zur Speicherung, Verarbeitung und Bereitstellung von Daten
-      </question>
-      <answer>
-        Datacenter
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Bereitstellung von Infrastruktur, z.B. Server und Speicherplatz, über das Internet
-      </question>
-      <answer>
-        IaaS Infrastructure-As-A-Service
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Internes Netzwerk, das ähnlich dem Internet aufgebaut ist, aber nur für interne Zwecke genutzt wird
-      </question>
-      <answer>
-        Intranet
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Ermöglicht es Unternehmen und Nutzern, auf Bedarf über das Internet auf eine Vielzahl von IT-Ressourcen wie Rechenleistung, Speicherplatz und Anwendungen zuzugreifen, ohne dass sie diese lokal vorhalten oder verwalten müssen.
-      </question>
-      <answer>
-        Cloud-Computing
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Bereitstellung von Software über das Internet
-      </question>
-      <answer>
-        SaaS Software-As-A-Service
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Bezeichnet die lokale Verarbeitung von Daten und Ausführung von Anwendungen nahe an der Datenquelle oder am Endgerät
-      </question>
-      <answer>
-        Edge-Computing
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Ein lokal Administrierts Netzwerk, das Geräte in räumlicher Nähe miteinander verbindet
-      </question>
-      <answer>
-        LAN Local-Area-Network
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Server, der Domainnamen in IP-Adressen auflöst
-      </question>
-      <answer>
-        DNS-Server
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Endgerät, das Ressourcen und Dienste für andere Geräte über ein Netzwerk bereitstellt
-      </question>
-      <answer>
-        Host
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Spezialisiertes Computersystem, eingebettet in andere Geräte
-      </question>
-      <answer>
-        Embedded System
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Ein Netzwerkgerät, das den Datenverkehr zwischen verschiedenen Netzwerken weiterleitet und den optimalen Weg für Datenpakete festlegt.
-      </question>
-      <answer>
-        Router
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        schafft eine sichere, verschlüsselte Verbindung über das Internet, um die Privatsphäre und Sicherheit zu gewährleisten.
-      </question>
-      <answer>
-        VPN Virtual-Private-Network
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Gleichmäßige Verteilung des Datenverkehrs auf mehrere Server, um die Last zu balancieren.
-      </question>
-      <answer>
-        Load Balancer
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Verbindet LAN's über große Entfernungen miteinander. Satellit, Glasfaserkabel
-      </question>
-      <answer>
-        WAN Wide-Area-Network
-      </answer>
-    </Task>
+  <Task>
+    <question>
+      Sorgt für den Transport und das Weiterleiten von Datenpaketen per Funk oder ins
+      leitungsgebundene LAN
+    </question>
+    <answer>
+      Access Point
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Speichergerät mit Netzwerkinterface
+    </question>
+    <answer>
+      NAS (Network Attached Storage)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Ein spezielles Netzwerk, das den Zugriff auf Speichergeräte in Rechenzentren ermöglicht.
+    </question>
+    <answer>
+      SAN (Storage Area Network)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      4 Byte großes Steuerungsfeld, das die Nutzung mehrerer virtueller LANs über eine physikalische
+      Verbindung erlaubt.
+    </question>
+    <answer>
+      VLAN-Tag (Virtual LAN Tag)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Bedarfsgerechte und softwarebasierte Planung und Steuerung von Unternehmensressourcen.
+    </question>
+    <answer>
+      ERP (Enterprise Resource Planning)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Großflächiges Netzwerk (oder Anbieter eines solchen), das (der) den Kunden Leitungen und/oder
+      Übertragungsdienste zur Verfügung stellt.
+    </question>
+    <answer>
+      Carrier (Netzbetreiber)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Eine Softwarelösung zur Verwaltung und Pflege von Kundenbeziehungen eines Unternehmens
+    </question>
+    <answer>
+      CRM (Customer Relationship Management)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Eine Verbindungsleitung zwischen Switches, die es ermöglicht, Traffic von mehreren VLANs über
+      eine einzige physische Verbindung zu transportieren.
+    </question>
+    <answer>
+      Trunk (VLAN-Trunk)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Bezeichnet das Hosting eigener Server in einem externen Rechenzentrum, das sich außerhalb des
+      eigenen LAN befindet.
+    </question>
+    <answer>
+      Colocation (Server-Housing)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Gewährleistung, dass Daten in einem System korrekt und widerspruchsfrei sind
+    </question>
+    <answer>
+      Datenkonsistenz (Korrektheit und Widerspruchsfreiheit von Daten)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Mitarbeiter bringen ihre eigenen Geräte mit zum Arbeitsplatz. Diese werden in das LAN
+      integriert.
+    </question>
+    <answer>
+      BYOD (Bring Your Own Device)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Bezeichnet die „Beziehung“ zwischen Geräten, die gleichzeitig als Client und Server auftreten.
+    </question>
+    <answer>
+      P2P (Peer-to-Peer)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Ein kleiner, leistungsschwacher Rechner, der häufig ohne Festplatte auskommt und speziell
+      dafür entwickelt wurde, auf Anwendungen und Dienste zuzugreifen, die auf einem zentralen
+      Server gehostet werden.
+    </question>
+    <answer>
+      Thin Client
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Server, der den Zugriff auf Anwendungen von verschiedenen Endgeräten ermöglicht
+    </question>
+    <answer>
+      Terminalserver
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Gerät, das Datenpakete in einem Netzwerk weiterleitet, basierend auf MAC-Adressen
+    </question>
+    <answer>
+      Switch (Netzwerkverteiler)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Software und Systeme, die auf physischen Geräten innerhalb eines Unternehmens installiert und
+      verwaltet werden.
+    </question>
+    <answer>
+      On-Premises (lokal betriebene IT)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Ein leistungsstarker Computer, der eigenständig umfangreiche Verarbeitungsaufgaben übernimmt
+      und umfassende lokale Anwendungen und Daten speichert.
+    </question>
+    <answer>
+      Fat Client
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Software und Systeme, die auf externen Servern betrieben und von einem Drittanbieter verwaltet
+      werden, typischerweise in der Cloud.
+    </question>
+    <answer>
+      Off-Premises (extern betriebene IT)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Logisches Netzwerk, das unabhängig von der physischen Struktur konfiguriert wird
+    </question>
+    <answer>
+      VLAN (Virtual Local Area Network)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Sicherungskopie von Daten, um im Falle eines Datenverlusts wiederherstellen zu können
+    </question>
+    <answer>
+      Backup (Datensicherung)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Architektur, bei der Clients Dienste von einem Server anfordern
+    </question>
+    <answer>
+      Client-Server-Modell
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Zentrale Einrichtung zur Speicherung, Verarbeitung und Bereitstellung von Daten
+    </question>
+    <answer>
+      Data Center (Rechenzentrum)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Bereitstellung von Infrastruktur, z.B. Server und Speicherplatz, über das Internet
+    </question>
+    <answer>
+      IaaS (Infrastructure as a Service)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Internes Netzwerk, das ähnlich dem Internet aufgebaut ist, aber nur für interne Zwecke genutzt
+      wird
+    </question>
+    <answer>
+      Intranet (internes Firmennetzwerk)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Ermöglicht es Unternehmen und Nutzern, auf Bedarf über das Internet auf eine Vielzahl von
+      IT-Ressourcen wie Rechenleistung, Speicherplatz und Anwendungen zuzugreifen, ohne dass sie
+      diese lokal vorhalten oder verwalten müssen.
+    </question>
+    <answer>
+      Cloud Computing
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Bereitstellung von Software über das Internet
+    </question>
+    <answer>
+      SaaS (Software as a Service)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Bezeichnet die lokale Verarbeitung von Daten und Ausführung von Anwendungen nahe an der
+      Datenquelle oder am Endgerät
+    </question>
+    <answer>
+      Edge Computing
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Ein lokal Administrierts Netzwerk, das Geräte in räumlicher Nähe miteinander verbindet
+    </question>
+    <answer>
+      LAN (Local Area Network)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Server, der Domainnamen in IP-Adressen auflöst
+    </question>
+    <answer>
+      DNS-Server (Domain Name System Server)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Endgerät, das Ressourcen und Dienste für andere Geräte über ein Netzwerk bereitstellt
+    </question>
+    <answer>
+      Host (Netzwerk-Endgerät)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Spezialisiertes Computersystem, eingebettet in andere Geräte
+    </question>
+    <answer>
+      Embedded System (eingebettetes System)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Ein Netzwerkgerät, das den Datenverkehr zwischen verschiedenen Netzwerken weiterleitet und den
+      optimalen Weg für Datenpakete festlegt.
+    </question>
+    <answer>
+      Router (Netzwerkrouter)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      schafft eine sichere, verschlüsselte Verbindung über das Internet, um die Privatsphäre und
+      Sicherheit zu gewährleisten.
+    </question>
+    <answer>
+      VPN (Virtual Private Network)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Gleichmäßige Verteilung des Datenverkehrs auf mehrere Server, um die Last zu balancieren.
+    </question>
+    <answer>
+      Load Balancer (Lastverteiler)
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Verbindet LAN's über große Entfernungen miteinander. Satellit, Glasfaserkabel
+    </question>
+    <answer>
+      WAN (Wide Area Network)
+    </answer>
+  </Task>
 </Tasks>

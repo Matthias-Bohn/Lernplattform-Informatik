@@ -3,57 +3,57 @@
     <Task>
         <question>
             Geg.: IP: 223.17.17.17 SNM: 255.255.255.128\nBerechnen Sie die dazugehörige
-                Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
-                geben?
+            Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
+            geben?
         </question>
         <answer>
-            Netz: 223.17.17.0 Broad: 223.17.17.127 Hosts: 126
+            Netzadresse: 223.17.17.0 | Broadcastadresse: 223.17.17.127 | Maximale Hostanzahl: 126
         </answer>
     </Task>
     <Task>
         <question>
             Geg.: IP: 192.168.2.50 SNM: 255.255.255.192\nBerechnen Sie die dazugehörige
-                Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
-                geben?
+            Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
+            geben?
         </question>
         <answer>
-            Netz: 192.168.2.0 Broad: 192.168.2.63 Hosts: 62
+            Netzadresse: 192.168.2.0 | Broadcastadresse: 192.168.2.63 | Maximale Hostanzahl: 62
         </answer>
     </Task>
     <Task>
         <question>
             Geg.: IP: 172.29.45.78 SNM: 255.255.255.240\nBerechnen Sie die dazugehörige
-                Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
-                geben?
+            Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
+            geben?
         </question>
         <answer>
-            Netz: 172.29.45.64 Broad: 172.29.45.79 Hosts: 14
+            Netzadresse: 172.29.45.64 | Broadcastadresse: 172.29.45.79 | Maximale Hostanzahl: 14
         </answer>
     </Task>
     <Task>
         <question>
             Geg.: IP: 10.5.8.3 SNM: 255.255.255.252\nBerechnen Sie die dazugehörige
-                Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
-                geben?
+            Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
+            geben?
         </question>
         <answer>
-            Netz: 10.5.8.0 Broad: 10.5.8.3 Hosts: 2
+            Netzadresse: 10.5.8.0 | Broadcastadresse: 10.5.8.3 | Maximale Hostanzahl: 2
         </answer>
     </Task>
     <Task>
         <question>
             Geg.: IP: 130.45.67.89 SNM: 255.255.255.224\nBerechnen Sie die dazugehörige
-                Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
-                geben?
+            Netzadresse und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal
+            geben?
         </question>
         <answer>
-            Netz: 130.45.67.64 Broad: 130.45.67.95 Hosts: 30
+            Netzadresse: 130.45.67.64 | Broadcastadresse: 130.45.67.95 | Maximale Hostanzahl: 30
         </answer>
     </Task>
     <Task>
         <question>
             Geben Sie den öffentlichen Adressbereich (erste und letzte Adresse) im Bereich der
-                Netzklasse B als ein zusammenhängendes Netzwerk an.
+            Netzklasse B als ein zusammenhängendes Netzwerk an.
         </question>
         <answer>
             128.0.0.0 bis 191.255.255.255
@@ -62,19 +62,19 @@
     <Task>
         <question>
             Kann folgende IP-Adresse an einen Host im Netzwerk vergeben
-                werden?\nIP:212.28.40.63/28
+            werden?\nIP:212.28.40.63/28
         </question>
         <answer>
-            Nein, Weil es sich um eine Broadcast Adresse handelt.
+            Nein, da es sich um eine Broadcastadresse handelt.
         </answer>
     </Task>
     <Task>
         <question>
             Ermitteln Sie zur IP-Adresse 143.93.8.155/28 die zugehörige Netzwerkadresse und
-                Broadcastadresse
+            Broadcastadresse
         </question>
         <answer>
-            Netz: 143.93.8.144 Broadcast: 143.93.8.159
+            Netzadresse: 143.93.8.144 | Broadcastadresse: 143.93.8.159
         </answer>
     </Task>
     <Task>
@@ -88,161 +88,161 @@
     <Task>
         <question>
             Kann folgende IP-Adresse an einen Host im Netzwerk vergeben
-                werden?\nIP:192.168.0.7, SNM: 255.255.255.228
+            werden?\nIP:192.168.0.7, SNM: 255.255.255.228
         </question>
         <answer>
-            Die Subnetzmaske ist nicht korrekt.
+            Nein, die Subnetzmaske ist ungültig.
         </answer>
     </Task>
     <Task>
         <question>
             IP: 191.17.67.17 SNM: 255.255.255.0\nErmitteln Sie die dazugehörige Netzadresse
-                und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal geben?
+            und Broadcastadresse. Wie viele Hosts kann es in diesem Netz maximal geben?
         </question>
         <answer>
-            Netz: 191.17.67.0 Broadcast: 191.17.67.255 Hosts: 254
+            Netzadresse: 191.17.67.0 | Broadcastadresse: 191.17.67.255 | Maximale Hostanzahl: 254
         </answer>
     </Task>
     <Task>
         <question>
             Kann folgende IP-Adresse an einen Host im Netzwerk vergeben
-                werden?\nIP:132.28.255.255/15
+            werden?\nIP:132.28.255.255/15
         </question>
         <answer>
-            Nein, es handelt sich um eine Broadcast-Adresse.
+            Nein, da es sich um eine Broadcastadresse handelt.
         </answer>
     </Task>
     <Task>
         <question>
             Kann folgende IP-Adresse an einen Host im Netzwerk vergeben
-                werden?\nIP:196.256.0.254/24
+            werden?\nIP:196.256.0.254/24
         </question>
         <answer>
-            Nein, die IP-Adresse ist ungültig. 256 gibt's nicht
+            Nein, die IP-Adresse ist ungültig (256 ist kein gültiger Oktettwert).
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in binärer und in dezimaler Schreibweise dar.\nC1
-                2F 09 7A
+            2F 09 7A
         </question>
         <answer>
-            
-                Binär: 11000001 00101111 00001001 01111010\nDezimal: 193 47 9 122
-            
+
+            Binär: 11000001 00101111 00001001 01111010 | Dezimal: 193 47 9 122
+
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in binärer und in dezimaler Schreibweise dar.\n78
-                D4 A1 6B
+            D4 A1 6B
         </question>
         <answer>
-            
-                Binär: 01111000 11010100 10100001 01101011\nDezimal: 120 212 161 107
-            
+
+            Binär: 01111000 11010100 10100001 01101011 | Dezimal: 120 212 161 107
+
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in binärer und in dezimaler Schreibweise dar.\nE7
-                9A 2F 14
+            9A 2F 14
         </question>
         <answer>
-            
-                Binär: 11100111 10011010 00101111 00010100\nDezimal: 231 154 47 20
-            
+
+            Binär: 11100111 10011010 00101111 00010100 | Dezimal: 231 154 47 20
+
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in binärer und in dezimaler Schreibweise dar.\n4B
-                8E F2 6C
+            8E F2 6C
         </question>
         <answer>
-            
-                Binär: 01001011 10001110 11110010 01101100\nDezimal: 75 142 242 108
-            
+
+            Binär: 01001011 10001110 11110010 01101100 | Dezimal: 75 142 242 108
+
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in binärer und in hexadezimaler Schreibweise
-                dar.\n192.168.5.10
+            dar.\n192.168.5.10
         </question>
         <answer>
-            
-                Binär: 11000000.10101000.00000101.00001010\nHexadezimal: C0 A8 05 0A
-            
+
+            Binär: 11000000.10101000.00000101.00001010 | Hexadezimal: C0 A8 05 0A
+
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in binärer und in hexadezimaler Schreibweise
-                dar.\n10.25.200.50
+            dar.\n10.25.200.50
         </question>
         <answer>
-            
-                Binär: 00001010.00011001.11001000.00110010\nHexadezimal: 0A 19 C8 32
-            
+
+            Binär: 00001010.00011001.11001000.00110010 | Hexadezimal: 0A 19 C8 32
+
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in binärer und in hexadezimaler Schreibweise
-                dar.\n172.16.30.5
+            dar.\n172.16.30.5
         </question>
         <answer>
-            
-                Binär: 10101100.00010000.00011110.00000101\nHexadezimal: AC 10 1E 05
-            
+
+            Binär: 10101100.00010000.00011110.00000101 | Hexadezimal: AC 10 1E 05
+
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in binärer und in hexadezimaler Schreibweise
-                dar.\n240.50.75.3
+            dar.\n240.50.75.3
         </question>
         <answer>
-            
-                Binär: 11110000.00110010.01001011.00000011\nHexadezimal: F0 32 4B 03
-            
+
+            Binär: 11110000.00110010.01001011.00000011 | Hexadezimal: F0 32 4B 03
+
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in hexadezimaler Schreibweise und in dezimaler
-                Schreibweise dar.\n11011001.10101010.00110011.01001001
+            Schreibweise dar.\n11011001.10101010.00110011.01001001
         </question>
         <answer>
-            Hexadezimal: D9 AA 33 49\nDezimal: 217 170 51 73
+            Hexadezimal: D9 AA 33 49 | Dezimal: 217 170 51 73
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in hexadezimaler Schreibweise und in dezimaler
-                Schreibweise dar.\n11100010.01011100.10011010.00101001
+            Schreibweise dar.\n11100010.01011100.10011010.00101001
         </question>
         <answer>
-            Hexadezimal: E2 5C 9A 29\nDezimal: 226 92 154 41
+            Hexadezimal: E2 5C 9A 29 | Dezimal: 226 92 154 41
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in hexadezimaler Schreibweise und in dezimaler
-                Schreibweise dar.\n10010011.01100101.11001010.00011100
+            Schreibweise dar.\n10010011.01100101.11001010.00011100
         </question>
         <answer>
-            Hexadezimal: 93 65 CA 1C\nDezimal: 147 101 202 28
+            Hexadezimal: 93 65 CA 1C | Dezimal: 147 101 202 28
         </answer>
     </Task>
     <Task>
         <question>
             Stellen Sie folgende IP-Adresse in hexadezimaler Schreibweise und in dezimaler
-                Schreibweise dar.\n01001001.11101010.00111011.11011111
+            Schreibweise dar.\n01001001.11101010.00111011.11011111
         </question>
         <answer>
-            Hexadezimal: 49 EA 3B DF\nDezimal: 73 234 59 223
+            Hexadezimal: 49 EA 3B DF | Dezimal: 73 234 59 223
         </answer>
     </Task>
     <Task>
@@ -272,7 +272,7 @@
     <Task>
         <question>
             In welche Adressklasse gehört folgende
-                IP-Adresse\n14.5.6.7/8
+            IP-Adresse\n14.5.6.7/8
         </question>
         <answer>
             Klasse A
@@ -305,7 +305,7 @@
     <Task>
         <question>
             Kann folgende IP-Adresse an einen Host im Netzwerk vergeben
-                werden?\nIP:210.45.67.89/30
+            werden?\nIP:210.45.67.89/30
         </question>
         <answer>
             Ja, es handelt sich um eine gültige IP-Adresse.
@@ -314,7 +314,7 @@
     <Task>
         <question>
             Ermitteln Sie zur IP-Adresse 192.168.5.33/26 die zugehörige Netzwerkadresse und
-                Broadcastadresse\n
+            Broadcastadresse\n
         </question>
         <answer>
             Netz: 192.168.5.0 Broadcast: 192.168.5.63
@@ -323,7 +323,7 @@
     <Task>
         <question>
             Wie viele Subnetze können Sie aus der IP-Adresse 172.29.10.0 erstellen, wenn Sie
-                eine Subnetzmaske von 255.255.255.240 verwenden?
+            eine Subnetzmaske von 255.255.255.240 verwenden?
         </question>
         <answer>
             16 Subnetze
@@ -332,7 +332,7 @@
     <Task>
         <question>
             Geben Sie den öffentlichen Adressbereich (erste und letzte Adresse) im Bereich der
-                Netzklasse A an.
+            Netzklasse A an.
         </question>
         <answer>
             0.0.0.0 bis 127.255.255.255
@@ -341,7 +341,7 @@
     <Task>
         <question>
             Kann folgende IP-Adresse an einen Host im Netzwerk vergeben
-                werden?\nIP:172.32.45.67/20
+            werden?\nIP:172.32.45.67/20
         </question>
         <answer>
             Ja, es handelt sich um eine gültige IP-Adresse.
@@ -350,7 +350,7 @@
     <Task>
         <question>
             Berechnen Sie die Anzahl der möglichen Hosts in einem Subnetz mit der Subnetzmaske
-                255.255.255.224.
+            255.255.255.224.
         </question>
         <answer>
             30 Hosts
@@ -359,7 +359,7 @@
     <Task>
         <question>
             Berechnen Sie die Anzahl der möglichen Hosts in einem Subnetz mit der Subnetzmaske
-                255.255.255.240.
+            255.255.255.240.
         </question>
         <answer>
             14 Hosts
@@ -368,7 +368,7 @@
     <Task>
         <question>
             Berechnen Sie die Anzahl der möglichen Hosts in einem Subnetz mit der Subnetzmaske
-                255.255.255.192.
+            255.255.255.192.
         </question>
         <answer>
             62 Hosts
@@ -377,7 +377,7 @@
     <Task>
         <question>
             Berechnen Sie die Anzahl der möglichen Hosts in einem Subnetz mit der Subnetzmaske
-                255.255.255.248.
+            255.255.255.248.
         </question>
         <answer>
             6 Hosts
@@ -386,7 +386,7 @@
     <Task>
         <question>
             Berechnen Sie die Anzahl der möglichen Hosts in einem Subnetz mit der Subnetzmaske
-                255.255.255.254.
+            255.255.255.254.
         </question>
         <answer>
             0 Hosts, Da beide Adressen für Netzwerk und Broadcast- Adressen vergeben sind
@@ -395,7 +395,7 @@
     <Task>
         <question>
             Ermitteln Sie zur IP-Adresse 10.5.8.3/28 die zugehörige Netzwerkadresse und
-                Broadcastadresse\n
+            Broadcastadresse\n
         </question>
         <answer>
             Netz: 10.5.8.0 Broadcast: 10.5.8.15
@@ -404,7 +404,7 @@
     <Task>
         <question>
             Wie viele Subnetze können Sie aus der IP-Adresse 200.150.100.0 erstellen, wenn Sie
-                eine Subnetzmaske von 255.255.255.252 verwenden?
+            eine Subnetzmaske von 255.255.255.252 verwenden?
         </question>
         <answer>
             64 Subnetze
@@ -413,18 +413,18 @@
     <Task>
         <question>
             Kann folgende IP-Adresse an einen Host im Netzwerk vergeben
-                werden?\nIP:192.168.1.1, SNM: 255.255.255.254
+            werden?\nIP:192.168.1.1, SNM: 255.255.255.254
         </question>
         <answer>
-            
-                Die Subnetzmaske ist gültig, erlaubt jedoch nur zwei Hosts pro Subnetz.
-            
+
+            Die Subnetzmaske ist gültig, erlaubt jedoch nur zwei Hosts pro Subnetz.
+
         </answer>
     </Task>
     <Task>
         <question>
             Geben Sie den öffentlichen Adressbereich (erste und letzte Adresse) im Bereich der
-                Netzklasse C an.
+            Netzklasse C an.
         </question>
         <answer>
             192.0.0.0 bis 223.255.255.255

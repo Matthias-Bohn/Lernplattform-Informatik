@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tasks>
-    <Task>
-      <question>
-        Berechne 500 kB in KiB
-      </question>
-      <answer>
-        500 * (1000/1024) = 488,28 KiB
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Wandele 2,5 MiB in MB um
-      </question>
-      <answer>
-        2,5 * (1024*1024/1000*1000) = 2,62 MB
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Rechne 1,2 GB in GiB um
-      </question>
-      <answer>
-        1,2 * (1000*1000*1000/1024*1024*1024) = 1,12 GiB
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Umwandle 1024 KiB in kB
-      </question>
-      <answer>
-        1024 * (1024 / 1000) = 1048,58 kB
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Konvertiere 4 TB in GiB
-      </question>
-      <answer>
-        4 * (1000*1000*1000*1000 / 1024*1024*1024) = 3725,29 GiB
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Rechne 4096 MiB in GiB um
-      </question>
-      <answer>
-        4096 / 1024 = 4 GiB
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Konvertiere 1,5 GB in TiB
-      </question>
-      <answer>
-        1,5 * (1000*1000*1000 / 1024*1024*1024*1024) = 0,0014 TiB
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Berechne 200 MB in Bit
-      </question>
-      <answer>
-        200 * 1000 * 1000 *8 = 1.600.000.000 Bit
-      </answer>
-    </Task>
-    <Task>
-      <question>
-        Berechne 150 KiB in Bit
-      </question>
-      <answer>
-        150 * 1024 * 8 = 1.228.800 Bit
-      </answer>
-    </Task>
+  <Task>
+    <question>
+      Berechne 500 kB in KiB
+    </question>
+    <answer>
+      500 kB * (1000 / 1024) = 488,28 KiB
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Wandele 2,5 MiB in MB um
+    </question>
+    <answer>
+      2,5 MiB * (1024^2 / 1000^2) = 2,62 MB
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Rechne 1,2 GB in GiB um
+    </question>
+    <answer>
+      1,2 GB * (1000^3 / 1024^3) = 1,12 GiB
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Umwandle 1024 KiB in kB
+    </question>
+    <answer>
+      1024 KiB * (1024 / 1000) = 1048,58 kB
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Konvertiere 4 TB in GiB
+    </question>
+    <answer>
+      4 TB * (1000^4 / 1024^3) = 3725,29 GiB
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Rechne 4096 MiB in GiB um
+    </question>
+    <answer>
+      4096 MiB / 1024 = 4 GiB
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Konvertiere 1,5 GB in TiB
+    </question>
+    <answer>
+      1,5 GB * (1000^3 / 1024^4) = 0,0014 TiB
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Berechne 200 MB in Bit
+    </question>
+    <answer>
+      200 MB * 1000^2 * 8 = 1.600.000.000 Bit
+    </answer>
+  </Task>
+  <Task>
+    <question>
+      Berechne 150 KiB in Bit
+    </question>
+    <answer>
+      150 KiB * 1024 * 8 = 1.228.800 Bit
+    </answer>
+  </Task>
 </Tasks>
