@@ -11,45 +11,57 @@
   <title>Lernplattform für Informatik</title>
 
   <link rel="stylesheet" href="./informatik.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 
 <body>
   <canvas id="canva"></canvas>
   <div class="modal" id="modal1">
-    <div class="button-div">
-      <button data-id="ipv4" onclick="ChooseTask(this)">
-        IPv4 Aufgaben
-      </button>
-      <button data-id="byteUmrechnung" onclick="ChooseTask(this)">
-        Umrechnung SI-Einheiten zu Binärpräfixe
-      </button>
-      <button data-id="etechnik" onclick="ChooseTask(this)">
-        Elektro Technik Aufgaben
-      </button>
-      <button data-id="begriffe" onclick="ChooseTask(this)">
-        Begriffsbezeichnungen
-      </button>
-      <button data-id="isoosi" onclick="ChooseTask(this)">
-        ISO-OSi-Modell Aufgaben
-      </button>
-      <button data-id="datenbank" onclick="ChooseTask(this)">
-        Datenbank Aufgaben
-      </button>
-      <button data-id="sqlEasy" onclick="ChooseTask(this)">
-        SQL Aufgaben einfach
-      </button>
-      <button data-id="sqlMedium" onclick="ChooseTask(this)">
-        SQL Aufgaben mittel
-      </button>
-        <button data-id="sqlHard" onclick="ChooseTask(this)">
-          SQL Aufgaben schwer
-        </button>
-      <button data-id="programmiersprachen" onclick="ChooseTask(this)">
-        Aufgaben zu Programmiersprachen
-      </button>
-      <button data-id="software" onclick="ChooseTask(this)">
-        Aufgaben zu Software
-      </button>
+    <div class="modal-grid">
+      <div class="modal-card" data-id="ipv4" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-network-wired"></i>
+        <span>IPv4 Aufgaben</span>
+      </div>
+      <div class="modal-card" data-id="byteUmrechnung" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-arrows-rotate"></i>
+        <span>Umrechnung SI-Einheiten</span>
+      </div>
+      <div class="modal-card" data-id="etechnik" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-bolt"></i>
+        <span>Elektro Technik</span>
+      </div>
+      <div class="modal-card" data-id="begriffe" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-book"></i>
+        <span>Begriffsbezeichnungen</span>
+      </div>
+      <div class="modal-card" data-id="isoosi" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-layer-group"></i>
+        <span>ISO-OSi-Modell</span>
+      </div>
+      <div class="modal-card" data-id="datenbank" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-database"></i>
+        <span>Datenbank Aufgaben</span>
+      </div>
+      <div class="modal-card" data-id="sqlEasy" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-code"></i>
+        <span>SQL einfach</span>
+      </div>
+      <div class="modal-card" data-id="sqlMedium" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-code"></i>
+        <span>SQL mittel</span>
+      </div>
+      <div class="modal-card" data-id="sqlHard" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-code"></i>
+        <span>SQL schwer</span>
+      </div>
+      <div class="modal-card" data-id="programmiersprachen" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-laptop-code"></i>
+        <span>Programmiersprachen</span>
+      </div>
+      <div class="modal-card" data-id="software" onclick="ChooseTask(this)">
+        <i class="fa-solid fa-cogs"></i>
+        <span>Software</span>
+      </div>
     </div>
   </div>
 
