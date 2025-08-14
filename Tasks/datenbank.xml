@@ -171,8 +171,7 @@
       Was ist die 3. Normalform (3NF)?
     </question>
     <answer>
-      Eine Tabelle ist in der 3. Normalform (3NF), wenn sie in der 2NF ist und kein
-      Nichtschlüsselattribut transitiv vom Primärschlüssel abhängt.
+      Eine Tabelle ist in der 3. Normalform (3NF), wenn sie in der 2NF ist und jedes Attribut direkt mit dem Primärschlüssel verknüpft ist und nicht über andere Attribute.
     </answer>
   </Task>
   <Task>
